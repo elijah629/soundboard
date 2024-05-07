@@ -1,0 +1,12 @@
+[package]
+name = "soundboard"
+version = "0.1.0"
+authors = ["Elijah629 <62805599+elijah629@users.noreply.github.com>"]
+edition = "2021"
+
+[dependencies]
+dirs = "5.0.1"
+global-hotkey = "0.5.3"
+rodio = "0.18.0"
+serde = { version = "1.0.200", features = ["derive"] }
+toml = "0.8.12"
